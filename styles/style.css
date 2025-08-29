@@ -1,6 +1,25 @@
 /* место для вашего кода */
-.header1 {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 93px 50px 95px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  list-style: circle;
+  font-size: 18px;
+  font-family: 400;
+}
+
+.active {
+  text-decoration: none;
+  list-style: none;
+}
+
+.text-addess {
+  display: block;
 }
