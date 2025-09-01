@@ -18,16 +18,15 @@
           <li class="menu-list-item"><a href="#0">об аукционе</a></li>
         </ul>
       </nav>
-      <a href="#0"><img class="logo" src="images/logo-black.svg" alt="logo" width="148" height="105"></a>
+      <a href="#0"><img class="logo" src="images/logo-black.svg" alt="logo"></a>
       <div class="address">
-        <span class="text-addess">+9 999 555 5555</span>
-        <span class="text-addess">info@sobaka.ge</span>
+        <span class="text-addess"><a href="tel:+99995555555">+9 999 555 5555</a></span>
+        <span class="text-addess"><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></span>
         <span class="text-addess">наб. Принсенграхт 263- 265, Амстердам</span>
       </div>
     </header>
     <main>
       <section class="cover">
-        <div class="overlay">
         <h1 class="cover-title">
           <span class="cover-text text-align-left">Оно</span>
           <span class="cover-text text-align-center">тебе</span>
@@ -37,56 +36,60 @@
           <p>Аукцион вещей, в которые никто не верил</p>
           <button type="button">Сделать ставку</button>
         </div>
-        
+        <div class="overlay"></div>
       </section>
       <section class="lot">
-        <h2 class="lots-title">лоты</h2>
+        <h2 class="lots__heading">лоты</h2>
         <div class="lots">
-            <ul class="list-lot-1">
-              <li class="item-list-title overlay">
-                <a href="">
-                  <article>
-                    <p>Фильм режиссёра, который бросил киношколу</p>
-                    <p>Не просто бросил, а ушёл с первой лекции. 
+          <ul class="lots__card-list">
+            <li class="lots__card-list-item card_type_film">
+              <div class="overlay"></div>
+              <a href="#0" class="card-link">
+                <article class="card">
+                  <p class="card__title">Фильм режиссёра, который бросил киношколу</p>
+                  <p class="card__text">Не просто бросил, а ушёл с первой лекции. 
                     Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-                  </article>
-                </a>
-              </li>
-            </ul>
-            <ul class="list-lot-2">
-              <li class="item-list-title overlay">
-                <a href="">
-                  <article>
-                    <p>Книга, где описан один скучный день из жизни рекламного агента</p>
-                    <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. 
-                      В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
-                      И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-                  </article>
-                </a>
-              </li>
-            </ul>
-            <ul class="list-lot-3">
-              <li class="item-list-title overlay">
-                <a href="">
-                  <article>
-                    <p>Картина, которую повторит даже 5-летний сын маминой подруги</p>
-                    <p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... 
-                      Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-                  </article>
-                </a>
-              </li>
-            </ul>
-          </div>
+                </article>
+              </a>
+            </li>
+          </ul>
+          <ul class="lots__card-list">
+            <li class="lots__card-list-item card_type_book">
+              <a href="" class="card-link">
+                <div class="overlay"></div>
+                <article class="card">
+                  <p class="card__title">Книга, где описан один скучный день из жизни рекламного агента</p>
+                  <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. 
+                  В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
+                  И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+                </article>
+              </a>
+            </li>
+          </ul>
+          <ul class="lots__card-list">
+            <li class="lots__card-list-item card_type_picture">
+              <a href="" class="card-link">
+                <div class="overlay"></div>
+                <article class="card">
+                  <p class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</p>
+                  <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... 
+                    Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+                </article>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="#0" class="lots__look-more-link">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about-logo">
-          <a href="#0"><img src="images/logo-white.svg" alt="Белый логотип"></a>
+          <a href="#0"><img src="images/logo-white.svg" alt="Белый логотип" width="141" height="112" class="logo-white"></a>
         </div>
         <div class="about-text">
           <h3 class="about-title">
             Об аукционе
           </h3>
-          <p class="about-paragraph">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
+          <p class="about-paragraph1">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
             Наши лоты вообще не должны были попасть ни на один аукцион. 
             Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? 
             Кому нужны все эти странные вещи, созданные любителями?
@@ -102,8 +105,8 @@
     </main>
     <footer class="footer">
       <div class="contacts">
-        <span>+9 999 555 5555</span>
-        <span>info@sobaka.ge</span>
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <span>наб. Принсенграхт 263-265, Амстердам</span>
       </div>
       <div class="menu">
@@ -121,14 +124,14 @@
       </div>
       <div class="social">
         <ul class="list-social">
-          <li class="social-list-item">
-            <a href="#0"><img src="images/yt.svg" alt="youtube"></a>
+          <li class="social-list-item active">
+            <a href="#0"><img src="images/yt.svg" alt="youtube" width="48" height="48"></a>
           </li>
           <li class="social-list-item">
-            <a href="#0"><img src="images/vk.svg" alt="vk"></a>
+            <a href="#0"><img src="images/vk.svg" alt="vk" width="48" height="48"></a>
           </li>
           <li class="social-list-item">
-            <a href="#0"><img src="images/pinterest.svg" alt="pinterest"></a>
+            <a href="#0"><img src="images/pinterest.svg" alt="pinterest" width="48" height="48"></a>
           </li>
         </ul>
       </div>
