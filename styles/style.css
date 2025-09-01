@@ -119,6 +119,7 @@ button {
   margin-bottom: 27px;
   margin-left: 64px;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 .lots__card-list {
@@ -209,7 +210,6 @@ button {
   display: flex;
   justify-content: space-between;
   padding: 0 24px;
-  padding-top: 37px;
   padding-bottom: 180px;
 }
 
