@@ -8,7 +8,7 @@
 
 .logo {
   display: grid;
-  width: 129px;
+  width: 154px;
   height: 104px;
 }
 
@@ -18,7 +18,7 @@
   gap: 30px;
   list-style: circle;
   font-size: 18px;
-  font-family: 400;
+  font-weight: 400;
   margin-right: 36px;
 }
 
@@ -33,7 +33,9 @@
     flex-direction: column;
     width: 210px;
     font-size: 18px;
-    line-height: 120%;
+    margin-right: 30px;
+    line-height: 25px;
+    text-underline-offset: 4px;
 }
 
 
@@ -54,7 +56,7 @@
   font-weight: 400;
   line-height: 127%;
   text-transform: uppercase;
-  padding-bottom: 50px;
+  padding-bottom: 49px;
   word-spacing: 1.1em;
 }
 
@@ -62,7 +64,7 @@
   display: block;
   font-size: 100px;
   font-weight: bold;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
   line-height: 115%;
@@ -89,12 +91,14 @@
 
 .text-align-center {
   text-align: center;
+  margin-left: 27px;
+  margin-top: 21px;
   margin-bottom: 20px;
 }
 
 .text-align-right {
   text-align: right;
-  padding-right: 50px;
+  padding-right: 20px;
   padding-bottom: 106px;
 }
 
@@ -113,21 +117,21 @@ button {
 }
 
 .lots__heading {
-  margin-bottom: 27px;
-  margin-left: px;
+  margin-bottom: 25px;
+  margin-left: 44px;
   font-size: 40px;
   text-transform: uppercase;
 }
 
 .lots__card-list {
   display: flex;
+  margin-left: 4px;
 }
 
 .lots {
   display: flex;
-  justify-content: space-between; 
-  margin-bottom: 30px;
-  gap: 25px;
+  margin-bottom: 25px;
+  gap: 21px;
   flex-wrap: wrap;
 }
 
@@ -201,7 +205,7 @@ button {
   text-decoration: underline;
   text-underline-offset: 4px;
   font-size: 20px;
-  padding-left: 40px;
+  padding-left: 43px;
 }
 
 .about {
@@ -224,7 +228,7 @@ button {
 
 .logo-white {
   position: absolute;
-  top: 25%;
+  top: 27%;
   left: 0;
 }
 
@@ -237,7 +241,7 @@ button {
 }
 
 .about-title {
-  margin-top: 133px;
+  margin-top: 137px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -263,6 +267,7 @@ button {
   display: flex;
   flex-direction: column;
   font-size: 18px;
+  line-height: 135%;
   width: 260px;
 }
 
@@ -270,6 +275,7 @@ button {
   list-style: none; 
   text-align: center; 
   font-size: 18px;
+  padding-right: 20px;
 }
 
 .list-social {
