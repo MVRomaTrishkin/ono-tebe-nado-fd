@@ -42,6 +42,7 @@
   background-image: url(/images/cover.jpg);
   margin-bottom: 180px;
   position: relative;
+  background-position: center;
 }
 
 .description {
@@ -100,7 +101,6 @@
   text-transform: uppercase;
   padding-bottom: 50px;
   word-spacing: 1.1em;
-  margin-left: 40px;
 }
 button {
   color: white;
@@ -118,7 +118,7 @@ button {
 
 .lots__heading {
   margin-bottom: 27px;
-  margin-left: 64px;
+  margin-left: 40px;
   font-size: 40px;
   text-transform: uppercase;
 }
@@ -204,6 +204,7 @@ button {
 .lots__look-more-link {
   text-decoration: underline;
   font-size: 20px;
+  padding-left: 40px;
 }
 
 .about {
@@ -219,6 +220,7 @@ button {
   background-color: #000;
   border-radius: 50%;
   position: relative;
+  margin-left: 47px;
   margin-top: 37px;
   margin-right: 72px;
 }
