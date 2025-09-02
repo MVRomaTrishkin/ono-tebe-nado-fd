@@ -129,17 +129,15 @@ button {
 
 .lots__card-list {
   list-style: none;
-  
   min-height: 600px;
   display: flex;
   margin-left: 2px;
-  display: flex;
   margin-bottom: 25px;
   gap: 25px;
   flex-wrap: wrap;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
   background-size: cover;
   background-position: center;
   position: relative;
